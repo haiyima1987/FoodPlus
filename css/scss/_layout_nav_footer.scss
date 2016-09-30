@@ -1,0 +1,108 @@
+nav {
+  position: relative;
+  background: $headerGrey;
+  width: 100%;
+  min-width: 980px;
+  height: 60px;
+  a {
+    color: $labelWhite;
+    font-family: Impact, sans-serif;
+    li {
+      display: inline-block;
+      border: 2px solid $labelWhite;
+      margin: 0 0 0 -6px;
+      padding: 10px 15px;
+      height: 60px;
+      font-size: 24px;
+      &:hover {
+        background: $labelWhite;
+        color: $headerGrey;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.leftNav {
+  @include position(absolute, $top: 0, $left: 80px);
+}
+
+.rightNav {
+  @include position(absolute, $top: 0, $right: 80px);
+}
+
+.footerAbove {
+  background: $footerGrey;
+  text-align: center;
+  height: 200px;
+  h4 {
+    color: $footerBlack;
+    font-weight: bold;
+  }
+}
+
+.followUs {
+  background: $footerLightGrey;
+  padding: 20px 0 0 0;
+  height: 100%;
+  .followLogo {
+    width: 10%;
+    margin: 0 10px;
+    display: inline-block;
+    @include position(relative, $top: 40px);
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.about {
+  padding: 20px 0 0 0;
+}
+
+.news {
+  @extend .about;
+  .form-group {
+    margin-top: 20px;
+  }
+  .btnSection {
+    width: 100px;
+    height: 35px;
+    padding: 0;
+    position: static;
+    font-size: 18px;
+    margin: 15px 0 0 0;
+  }
+}
+
+.footer {
+  height: 40px;
+  background: $headerGrey;
+  .copyright {
+    p {
+      margin: 0;
+      padding: 10px;
+      color: $labelWhite;
+      font: normal normal 16px Impact, sans-serif;
+    }
+  }
+}
+
+.footerMenu {
+  ul {
+    margin: 0;
+  }
+  li {
+    padding: 10px;
+    display: inline-block;
+    height: 40px;
+    a {
+      padding: 0 10px;
+      color: $labelWhite;
+      font: normal normal 16px Impact, sans-serif;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

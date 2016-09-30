@@ -1,0 +1,209 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+.container-fluid {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center; }
+
+p {
+  text-align: center; }
+
+.row {
+  margin: 0;
+  padding: 0; }
+
+nav {
+  position: relative;
+  background: #696969;
+  width: 100%;
+  min-width: 980px;
+  height: 60px; }
+  nav a {
+    color: #e6e6e6;
+    font-family: Impact, sans-serif; }
+    nav a li {
+      display: inline-block;
+      border: 2px solid #e6e6e6;
+      margin: 0 0 0 -6px;
+      padding: 10px 15px;
+      height: 60px;
+      font-size: 24px; }
+      nav a li:hover {
+        background: #e6e6e6;
+        color: #696969;
+        font-weight: bold; }
+
+.leftNav {
+  position: absolute;
+  top: 0;
+  left: 80px; }
+
+.rightNav {
+  position: absolute;
+  top: 0;
+  right: 80px; }
+
+.footerAbove {
+  background: #969696;
+  text-align: center;
+  height: 200px; }
+  .footerAbove h4 {
+    color: #1a1a1a;
+    font-weight: bold; }
+
+.followUs {
+  background: #c6c6c6;
+  padding: 20px 0 0 0;
+  height: 100%; }
+  .followUs .followLogo {
+    width: 10%;
+    margin: 0 10px;
+    display: inline-block;
+    position: relative;
+    top: 40px; }
+  .followUs img {
+    width: 100%; }
+
+.about, .news {
+  padding: 20px 0 0 0; }
+
+.news .form-group {
+  margin-top: 20px; }
+.news .btnSection {
+  width: 100px;
+  height: 35px;
+  padding: 0;
+  position: static;
+  font-size: 18px;
+  margin: 15px 0 0 0; }
+
+.footer {
+  height: 40px;
+  background: #696969; }
+  .footer .copyright p {
+    margin: 0;
+    padding: 10px;
+    color: #e6e6e6;
+    font: normal normal 16px Impact, sans-serif; }
+
+.footerMenu ul {
+  margin: 0; }
+.footerMenu li {
+  padding: 10px;
+  display: inline-block;
+  height: 40px; }
+  .footerMenu li a {
+    padding: 0 10px;
+    color: #e6e6e6;
+    font: normal normal 16px Impact, sans-serif; }
+    .footerMenu li a:hover {
+      text-decoration: none; }
+
+/*background color and image*/
+.bg {
+  background: #e1dfda;
+  position: relative; }
+  .bg .bgImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; }
+
+/*content container*/
+.content {
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
+  padding: 0 0 80px 0; }
+
+/*heading text and logo*/
+.heading {
+  text-align: center; }
+  .heading img {
+    width: 12%; }
+  .heading h2 {
+    margin: 20px 0;
+    padding: 8px;
+    color: #ef3e09;
+    background: rgba(230, 230, 230, 0.6);
+    font-weight: bold; }
+
+/*each section and its container*/
+.sectionContainer {
+  clear: both; }
+
+.section {
+  background: rgba(254, 252, 52, 0.9);
+  padding: 0;
+  position: relative; }
+  .section .sectionImg {
+    padding: 10px; }
+    .section .sectionImg img {
+      width: 100%; }
+  .section .sectionText {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+    .section .sectionText p {
+      font: normal bold 16px "Maiandra GD", monospace;
+      position: absolute;
+      right: 5%;
+      bottom: 30%;
+      left: 20%;
+      text-align: justify; }
+    .section .sectionText .sectionLabel, .section .sectionText #sectionMiddle .sectionLabelMiddle, #sectionMiddle .section .sectionText .sectionLabelMiddle {
+      position: absolute;
+      top: 15%;
+      right: -10%; }
+
+/*label on each section*/
+.sectionLabel, #sectionMiddle .sectionLabelMiddle {
+  padding: 8px 24px;
+  border: 2px solid #e6e6e6;
+  background: #666;
+  color: #e6e6e6;
+  font: normal bold 24px "Cooper Black", sans-serif;
+  z-index: 3; }
+
+/*buttons in each section*/
+.btnSection {
+  width: 160px;
+  height: 40px;
+  padding: 5px;
+  font: normal normal 22px "Copperplate Gothic Bold", sans-serif;
+  background: #4d4d4d;
+  border: 2px solid #e6e6e6;
+  color: #e6e6e6;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  text-align: center; }
+  .btnSection:hover {
+    text-decoration: none;
+    color: #e6e6e6; }
+
+/*middle section orange and text on the right side*/
+#sectionMiddle {
+  background: rgba(239, 62, 9, 0.8); }
+  #sectionMiddle p {
+    position: absolute;
+    right: 20%;
+    bottom: 30%;
+    left: 5%; }
+  #sectionMiddle .sectionLabelMiddle {
+    position: absolute;
+    top: 15%;
+    left: -10%; }
+  #sectionMiddle .btnSection {
+    position: absolute;
+    bottom: 10px;
+    left: 0; }
+
+/*# sourceMappingURL=stylesheet.css.map */
