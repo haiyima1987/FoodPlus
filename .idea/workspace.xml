@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="043c8bd6-ffe8-4f3b-95d1-c90c77e37632" name="Default" comment="Minor changes. The three blocks are responsive now.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+=======
+    <list default="true" id="043c8bd6-ffe8-4f3b-95d1-c90c77e37632" name="Default" comment="" />
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
     <ignored path="FoodPlus.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,10 +28,75 @@
     <favorites_list name="FoodPlus" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf />
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.47807017">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="stylesheet.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/scss/stylesheet.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="51">
+                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_layout_flyer_content.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/scss/_layout_flyer_content.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1445">
+                  <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_base_variables.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/scss/_base_variables.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_layout_nav_footer.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/scss/_layout_nav_footer.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="236">
+                  <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="215">
+                  <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="Git.Settings">
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -39,9 +108,15 @@
         <option value="$PROJECT_DIR$/css/scss/stylesheet.scss" />
         <option value="$USER_HOME$/Downloads/Website/css/style.css" />
         <option value="$USER_HOME$/Downloads/Website/index.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/css/scss/_base_outline.scss" />
         <option value="$PROJECT_DIR$/css/scss/_base_variables.scss" />
         <option value="$PROJECT_DIR$/css/scss/_layout_flyer_content.scss" />
+=======
+        <option value="$PROJECT_DIR$/css/scss/_layout_flyer_content.scss" />
+        <option value="$PROJECT_DIR$/css/scss/_base_outline.scss" />
+        <option value="$PROJECT_DIR$/css/scss/_base_variables.scss" />
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/scss/_layout_nav_footer.scss" />
       </list>
@@ -56,7 +131,11 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
+<<<<<<< HEAD
     <option name="width" value="1616" />
+=======
+    <option name="width" value="1612" />
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
     <option name="height" value="886" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -89,8 +168,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DeliVariety/index.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+=======
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -144,9 +226,12 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+<<<<<<< HEAD
   <component name="SvnConfiguration">
     <configuration />
   </component>
+=======
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="043c8bd6-ffe8-4f3b-95d1-c90c77e37632" name="Default" comment="" />
@@ -154,6 +239,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475236446988</updated>
+<<<<<<< HEAD
       <workItem from="1475236451103" duration="26539000" />
     </task>
     <task id="LOCAL-00001" summary="Minor changes. The three blocks are responsive now.">
@@ -172,6 +258,18 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="false" />
+=======
+      <workItem from="1475236451103" duration="24643000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24643000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1612" height="886" extended-state="1" />
+    <editor active="true" />
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -202,10 +300,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Minor changes. The three blocks are responsive now." />
     <option name="LAST_COMMIT_MESSAGE" value="Minor changes. The three blocks are responsive now." />
   </component>
+=======
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -283,34 +384,58 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/scss/_base_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+=======
+    <entry file="file://$PROJECT_DIR$/css/scss/_layout_flyer_content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/scss/_layout_flyer_content.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="94" column="43" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
+=======
+    <entry file="file://$PROJECT_DIR$/css/scss/_base_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="714">
           <caret line="74" column="6" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
+=======
+        <state relative-caret-position="215">
+          <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/_layout_nav_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="323">
           <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+=======
+        <state relative-caret-position="236">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
           <folding />
         </state>
       </provider>

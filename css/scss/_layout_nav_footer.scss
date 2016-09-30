@@ -46,8 +46,13 @@ nav {
   padding: 20px 0 0 0;
   height: 100%;
   .followLogo {
+<<<<<<< HEAD
     width: 10%;
     margin: 0 10px;
+=======
+    width: 15%;
+    margin: 0 5px;
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
     display: inline-block;
     @include position(relative, $top: 40px);
   }

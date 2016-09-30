@@ -51,11 +51,19 @@
     @include position(absolute, 0, 0, 0, 0);
     p {
       font: normal bold 16px "Maiandra GD", monospace;
+<<<<<<< HEAD
       @include position(absolute, $bottom: 30%, $right: 5%, $left: 20%);
       text-align: justify;
     }
     .sectionLabel {
       @include position(absolute, $top: 15%, $right: -10%);
+=======
+      @include position(absolute, $bottom: 80px, $right: 30px, $left: 50px);
+      text-align: justify;
+    }
+    .sectionLabel {
+      @include position(absolute, $top: 30px, $right: -30px);
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
     }
   }
 }
@@ -92,11 +100,19 @@
 #sectionMiddle {
   background: $mainOrangeOpaque;
   p {
+<<<<<<< HEAD
     @include position(absolute, $bottom: 30%, $left: 5%, $right: 20%);
   }
   .sectionLabelMiddle {
     @extend .sectionLabel;
     @include position(absolute, $top: 15%, $left: -10%);
+=======
+    @include position(absolute, $bottom: 80px, $left: 30px, $right: 50px);
+  }
+  .sectionLabelMiddle {
+    @extend .sectionLabel;
+    @include position(absolute, $top: 30px, $left: -30px);
+>>>>>>> c1bb60d6b57631b86c08be881eac5d3217753d2d
   }
   .btnSection {
     @include position(absolute, $bottom: 10px, $left: 0);
