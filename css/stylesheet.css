@@ -16,6 +16,201 @@ p {
   margin: 0;
   padding: 0; }
 
+/*each flyerSection and its container*/
+.sectionContainer {
+  clear: both; }
+
+.flyerSection {
+  margin-top: 15px;
+  background: rgba(254, 252, 52, 0.9);
+  padding: 0;
+  position: relative; }
+  .flyerSection .flyerSectionImg {
+    padding: 10px; }
+    .flyerSection .flyerSectionImg img {
+      width: 100%; }
+  .flyerSection .flyerSectionText {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+    .flyerSection .flyerSectionText p {
+      font: normal bold 16px "Maiandra GD", monospace;
+      position: absolute;
+      right: 5%;
+      bottom: 30%;
+      left: 20%;
+      text-align: justify; }
+    .flyerSection .flyerSectionText .flyerSectionLabel, .flyerSection .flyerSectionText #flyerSectionMiddle .flyerSectionLabelMiddle, #flyerSectionMiddle .flyerSection .flyerSectionText .flyerSectionLabelMiddle, .flyerSection .flyerSectionText .headingRight a, .headingRight .flyerSection .flyerSectionText a {
+      position: absolute;
+      top: 30px;
+      right: -30px; }
+
+/*label on each flyerSection*/
+.flyerSectionLabel, #flyerSectionMiddle .flyerSectionLabelMiddle, .headingRight a {
+  text-align: center;
+  padding: 8px 24px;
+  border: 2px solid #e6e6e6;
+  background: #666;
+  color: #e6e6e6;
+  font: normal bold 1.5em "Cooper Black", sans-serif;
+  z-index: 3; }
+
+/*buttons in each flyer section*/
+.btnflyerSection {
+  width: 160px;
+  height: 40px;
+  padding: 5px;
+  font: normal normal 22px "Copperplate Gothic Bold", sans-serif;
+  background: #4d4d4d;
+  border: 2px solid #e6e6e6;
+  color: #e6e6e6;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  text-align: center; }
+  .btnflyerSection:hover {
+    text-decoration: none;
+    color: #e6e6e6; }
+
+/*middle flyerSection orange and text on the right side*/
+#flyerSectionMiddle {
+  background: rgba(239, 62, 9, 0.8); }
+  #flyerSectionMiddle p {
+    position: absolute;
+    right: 20%;
+    bottom: 30%;
+    left: 5%; }
+  #flyerSectionMiddle .flyerSectionLabelMiddle {
+    position: absolute;
+    top: 30px;
+    left: -30px; }
+  #flyerSectionMiddle .btnflyerSection {
+    position: absolute;
+    bottom: 10px;
+    left: 0; }
+
+/*background color and image*/
+.bg {
+  background: #e1dfda;
+  position: relative; }
+  .bg .bgImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; }
+
+/*content container*/
+.content {
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
+  padding: 0 0 80px 0; }
+
+/*heading text and logo*/
+.heading {
+  text-align: center; }
+  .heading img {
+    width: 12%; }
+  .heading h2 {
+    text-shadow: 3px 3px 3px #3a3a3a, -1px -1px 3px #3a3a3a, 1px -1px 3px #3a3a3a, -1px 1px 3px #3a3a3a, 1px 1px 3px #3a3a3a;
+    margin: 20px 0;
+    padding: 8px;
+    color: #ef3e09;
+    font-weight: bold; }
+
+.headingLeft {
+  margin-top: 40px; }
+  .headingLeft h3 {
+    text-shadow: 0px 0px 3px #3a3a3a, -1px -1px 3px #3a3a3a, 1px -1px 3px #3a3a3a, -1px 1px 3px #3a3a3a, 1px 1px 3px #3a3a3a;
+    text-align: right;
+    padding: 8px;
+    color: #ef3e09;
+    font-weight: bold; }
+
+.headingRight {
+  margin-top: 120px; }
+  .headingRight ul {
+    padding: 0; }
+    .headingRight ul li {
+      margin: 20px;
+      text-align: left; }
+
+/*information panel*/
+.infoPanel, .eventPanel {
+  background: rgba(254, 252, 52, 0.9);
+  padding: 20px 10px 40px;
+  position: relative;
+  top: 0;
+  z-index: 5;
+  border: 2px solid #e6e6e6;
+  -webkit-box-shadow: 5px 5px 15px #969696;
+  -moz-box-shadow: 5px 5px 15px #969696;
+  box-shadow: 5px 5px 15px #969696;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+  .infoPanel h3, .eventPanel h3 {
+    font: italic bold 2em "Copperplate Gothic Bold", sans-serif;
+    margin: 0; }
+  .infoPanel p, .eventPanel p {
+    margin: 12px; }
+
+/*info section and event section*/
+.infoSection, .eventSection {
+  margin: 0;
+  padding: 0 10px; }
+  .infoSection img, .eventSection img {
+    width: 100%; }
+  .infoSection a, .eventSection a {
+    padding: 4px 0 0 0;
+    font-size: 1em;
+    color: #e6e6e6;
+    font-weight: bold;
+    margin: 0 10px 0 10px;
+    background: rgba(77, 77, 77, 0.8);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block; }
+    .infoSection a:hover, .eventSection a:hover {
+      text-decoration: none; }
+  .infoSection p, .eventSection p {
+    margin: 0;
+    padding: 4px;
+    color: #e6e6e6;
+    font-weight: bold; }
+
+.eventPanel {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background: rgba(239, 62, 9, 0.8); }
+  .eventPanel h3 {
+    font: italic bold 2em "Copperplate Gothic Bold", sans-serif; }
+
+.eventSection {
+  margin: 10px 0;
+  padding: 10px; }
+  .eventSection .eventLabel {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    background: rgba(77, 77, 77, 0.8);
+    color: #e6e6e6;
+    font-size: 2em;
+    text-align: center; }
+    .eventSection .eventLabel .corner {
+      background: rgba(254, 252, 52, 0.9);
+      color: #4d4d4d; }
+
+.sectionContainer {
+  clear: both; }
+
 nav {
   position: relative;
   background: #696969;
@@ -61,13 +256,36 @@ nav {
   padding: 20px 0 0 0;
   height: 100%; }
   .followUs .followLogo {
-    width: 10%;
-    margin: 0 10px;
     display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: #e6e6e6;
     position: relative;
-    top: 40px; }
-  .followUs img {
-    width: 100%; }
+    top: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
+    .followUs .followLogo i {
+      font-size: 240%;
+      color: #ef3e09;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .followUs .followLogo:hover {
+      -webkit-transform: scale(-1, 1);
+      -moz-transform: scale(-1, 1);
+      -ms-transform: scale(-1, 1);
+      -o-transform: scale(-1, 1);
+      transform: scale(-1, 1); }
 
 .about, .news {
   padding: 20px 0 0 0; }
@@ -103,117 +321,5 @@ nav {
     font: normal normal 16px Impact, sans-serif; }
     .footerMenu li a:hover {
       text-decoration: none; }
-
-/*background color and image*/
-.bg {
-  background: #e1dfda;
-  position: relative; }
-  .bg .bgImg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1; }
-
-/*content container*/
-.content {
-  margin-top: 20px;
-  position: relative;
-  z-index: 2;
-  padding: 0 0 80px 0; }
-
-/*heading text and logo*/
-.heading {
-  text-align: center; }
-  .heading img {
-    width: 12%; }
-  .heading h2 {
-    margin: 20px 0;
-    padding: 8px;
-    color: #ef3e09;
-    background: rgba(230, 230, 230, 0.6);
-    font-weight: bold; }
-
-/*each section and its container*/
-.sectionContainer {
-  clear: both; }
-
-.section {
-  background: rgba(254, 252, 52, 0.9);
-  padding: 0;
-  position: relative; }
-  .section .sectionImg {
-    padding: 10px; }
-    .section .sectionImg img {
-      width: 100%; }
-  .section .sectionText {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0; }
-    .section .sectionText p {
-      font: normal bold 16px "Maiandra GD", monospace;
-      position: absolute;
-      right: 5%;
-      bottom: 30%;
-      left: 20%;
-      text-align: justify; }
-    .section .sectionText .sectionLabel, .section .sectionText #sectionMiddle .sectionLabelMiddle, #sectionMiddle .section .sectionText .sectionLabelMiddle {
-      position: absolute;
-      top: 15%;
-      right: -10%;
-      text-align: justify; }
-    .section .sectionText .sectionLabel, .section .sectionText #sectionMiddle .sectionLabelMiddle, #sectionMiddle .section .sectionText .sectionLabelMiddle {
-      position: absolute;
-      top: 30px;
-      right: -30px; }
-
-/*label on each section*/
-.sectionLabel, #sectionMiddle .sectionLabelMiddle {
-  padding: 8px 24px;
-  border: 2px solid #e6e6e6;
-  background: #666;
-  color: #e6e6e6;
-  font: normal bold 24px "Cooper Black", sans-serif;
-  z-index: 3; }
-
-/*buttons in each section*/
-.btnSection {
-  width: 160px;
-  height: 40px;
-  padding: 5px;
-  font: normal normal 22px "Copperplate Gothic Bold", sans-serif;
-  background: #4d4d4d;
-  border: 2px solid #e6e6e6;
-  color: #e6e6e6;
-  position: absolute;
-  right: 0;
-  bottom: 10px;
-  text-align: center; }
-  .btnSection:hover {
-    text-decoration: none;
-    color: #e6e6e6; }
-
-/*middle section orange and text on the right side*/
-#sectionMiddle {
-  background: rgba(239, 62, 9, 0.8); }
-  #sectionMiddle p {
-    position: absolute;
-    right: 20%;
-    bottom: 30%;
-    left: 5%; }
-  #sectionMiddle .sectionLabelMiddle {
-    position: absolute;
-    top: 15%;
-    left: -10%; }
-  #sectionMiddle .sectionLabelMiddle {
-    position: absolute;
-    top: 30px;
-    left: -30px; }
-  #sectionMiddle .btnSection {
-    position: absolute;
-    bottom: 10px;
-    left: 0; }
 
 /*# sourceMappingURL=stylesheet.css.map */
