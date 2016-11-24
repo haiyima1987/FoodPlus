@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 if (isset($_GET['page'])) {
     $pages = array("home", "flyer", "contact", "camping", "login");
     if (in_array($_GET['page'], $pages)) {
@@ -34,7 +36,6 @@ if (isset($_GET['page'])) {
     <ul class="leftNav">
         <li><a href="index.php">Home</a></li>
         <li><a href="index.php?page=flyer">Who we are</a></li>
-        <li><a href="index.php?page=contact">Contact</a></li>
         <li><a href="index.php?page=camping">Reservation</a></li>
     </ul>
     <ul class="rightNav">
@@ -43,7 +44,7 @@ if (isset($_GET['page'])) {
     </ul>
 </nav>
 
-<div class="bg container-fluid">
+<div id="pageContainer" class="bg container-fluid">
     <?php require("include/" . $_page . ".php") ?>
 </div>
 

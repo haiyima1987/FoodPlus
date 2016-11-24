@@ -1,3 +1,6 @@
+/** {
+  border: 1px dashed black;
+}*/
 html, body {
   margin: 0;
   padding: 0; }
@@ -99,8 +102,7 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    z-index: 1; }
+    width: 100%; }
 
 /*content container*/
 .content {
@@ -208,8 +210,68 @@ p {
       background: rgba(254, 252, 52, 0.9);
       color: #4d4d4d; }
 
-.sectionContainer {
-  clear: both; }
+/*camping site tent section*/
+.campingSiteEven, .campingSiteOdd {
+  background: #e6e6e6;
+  margin: 0 20px 10px 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 10px #969696;
+  -moz-box-shadow: 5px 5px 10px #969696;
+  box-shadow: 5px 5px 10px #969696; }
+  .campingSiteEven img, .campingSiteOdd img {
+    width: 100%; }
+  .campingSiteEven .tentUnit, .campingSiteOdd .tentUnit {
+    padding: 2px; }
+  .campingSiteEven h5, .campingSiteOdd h5 {
+    margin-top: 0;
+    padding: 10px;
+    text-align: left;
+    background: #12bf0a;
+    color: #e6e6e6;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; }
+  .campingSiteEven .row, .campingSiteOdd .row {
+    padding: 0 5px; }
+
+.campingSiteOdd h5 {
+  background: #ef3e09; }
+
+.available:hover, .interested:hover {
+  cursor: pointer; }
+
+/*reservation form section*/
+.content .form-group {
+  margin: 0; }
+
+.reservationForm {
+  background: #e6e6e6;
+  padding: 10px 10px 60px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 10px #969696;
+  -moz-box-shadow: 2px 2px 10px #969696;
+  box-shadow: 2px 2px 10px #969696; }
+  .reservationForm #btnSubmit {
+    margin-top: 5px; }
+
+/*error and conformation message*/
+.conformation {
+  margin: 0;
+  padding: 100px 0 250px 0;
+  text-align: center; }
+
+.errorMsg {
+  display: none;
+  margin: 5px; }
+  .errorMsg i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2em; }
 
 nav {
   position: relative;
