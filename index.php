@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 session_start();
 
 if (isset($_GET['page'])) {
-    $pages = array("home", "flyer", "contact", "camping", "login");
+    $pages = array("home", "flyer", "camping", "vote", "login", "signup");
     if (in_array($_GET['page'], $pages)) {
         $_page = $_GET['page'];
     } else {
@@ -37,10 +37,11 @@ if (isset($_GET['page'])) {
         <li><a href="index.php">Home</a></li>
         <li><a href="index.php?page=flyer">Who we are</a></li>
         <li><a href="index.php?page=camping">Reservation</a></li>
+	<li><a href="index.php?page=vote">Vote</a></li>
     </ul>
     <ul class="rightNav">
-        <li><a href="#">Log In</a></li>
-        <li><a href="#">Sign Up</a></li>
+        <li><a href="index.php?page=login">Log In</a></li>
+        <li><a href="index.php?page=signup">Sign Up</a></li>
     </ul>
 </nav>
 
