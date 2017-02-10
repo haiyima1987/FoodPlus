@@ -2,28 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b843914-e508-456a-8615-96aacf592f05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/component/appvars.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/component/connectvars.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/_base_mixins.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/_base_outline.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/follow_fb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/follow_fb1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/follow_inst.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/follow_inst1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/follow_twit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/follow_twit1.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/97856c6c7e8b192e25d79f93ec25d4671d80d27c/_base_outline.scssc" afterPath="$PROJECT_DIR$/.sass-cache/97856c6c7e8b192e25d79f93ec25d4671d80d27c/_base_outline.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/97856c6c7e8b192e25d79f93ec25d4671d80d27c/_layout_camping.scssc" afterPath="$PROJECT_DIR$/.sass-cache/97856c6c7e8b192e25d79f93ec25d4671d80d27c/_layout_camping.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_base_outline.scss" afterPath="$PROJECT_DIR$/css/_base_outline.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_base_variables.scss" afterPath="$PROJECT_DIR$/css/_base_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_layout_camping.scss" afterPath="$PROJECT_DIR$/css/_layout_camping.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_layout_home.scss" afterPath="$PROJECT_DIR$/css/_layout_home.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/scss/_module.media.sm.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/scss/_module.media.xs.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/_modules_media_s_m_l.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/_modules_media_xs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/stylesheet.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/foodplusdb.mwb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/component/reservation.php" afterPath="$PROJECT_DIR$/component/overview.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/_base_mixins.scss" afterPath="$PROJECT_DIR$/css/scss/_base.mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/_base_outline.scss" afterPath="$PROJECT_DIR$/css/scss/_base.outline.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/_base_variables.scss" afterPath="$PROJECT_DIR$/css/scss/_base.variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/_layout_camping.scss" afterPath="$PROJECT_DIR$/css/scss/_layout.camping.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/_layout_flyer.scss" afterPath="$PROJECT_DIR$/css/scss/_layout.flyer.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/_layout_home.scss" afterPath="$PROJECT_DIR$/css/scss/_layout.home.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/_layout_nav_footer.scss" afterPath="$PROJECT_DIR$/css/scss/_layout.nav.footer.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/include/camping.php" afterPath="$PROJECT_DIR$/include/camping.test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/foodplus.iml" afterPath="$PROJECT_DIR$/.idea/foodplus.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/component/appvars.php" afterPath="$PROJECT_DIR$/component/appvars.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/component/connectvars.php" afterPath="$PROJECT_DIR$/component/connectvars.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheet.css" afterPath="$PROJECT_DIR$/css/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheet.css.map" afterPath="$PROJECT_DIR$/css/stylesheet.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/camping.php" afterPath="$PROJECT_DIR$/include/camping.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/font-awesome-4.7.0/scss/font-awesome.css" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/flyer.php" afterPath="$PROJECT_DIR$/include/flyer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/home.php" afterPath="$PROJECT_DIR$/include/home.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/reservation.js" afterPath="$PROJECT_DIR$/js/reservation.js" />
     </list>
     <ignored path="foodplus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,22 +49,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="vote.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/vote.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+              <folding>
+                <marker date="1482098232112" expanded="true" signature="697:738" ph="UPDATE compe... " />
+                <marker date="1482098232112" expanded="true" signature="1291:1356" ph="UPDATE user " />
+                <marker date="1482098232112" expanded="true" signature="2528:2557" ph="SELECT * FRO... competitor_test" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_layout.vote.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/scss/_layout.vote.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/home.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="461">
+              <caret line="61" column="18" lean-forward="false" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+              <folding>
+                <marker date="1485987148381" expanded="true" signature="2687:2730" ph="UPDATE user " />
+                <marker date="1485987148381" expanded="true" signature="3340:3391" ph="INSERT INTO subscriptions... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="camping.v1.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/camping.v1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-83">
+              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding>
+                <marker date="1486069401260" expanded="true" signature="1000:1184" ph="INSERT INTO reservation... " />
+                <marker date="1486069401260" expanded="true" signature="1284:1335" ph="UPDATE campi... " />
+                <marker date="1486069401260" expanded="true" signature="1486:1529" ph="UPDATE user " />
+                <marker date="1486069401260" expanded="true" signature="2831:2873" ph="SELECT DISTI... camping_spot" />
+                <marker date="1486069401260" expanded="true" signature="3174:3246" ph="SELECT * FRO... camping_spot" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connectvars.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component/connectvars.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <folding>
+                <element signature="e#6#53#0#PHP" expanded="true" />
+                <element signature="e#169#203#0#PHP" expanded="true" />
+                <element signature="e#465#512#0#PHP" expanded="true" />
+                <element signature="e#630#677#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,36 +120,19 @@
       <file leaf-file-name="reservation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/reservation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-830">
-              <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="620">
+              <caret line="260" column="40" lean-forward="false" selection-start-line="260" selection-start-column="40" selection-end-line="260" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="camping.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/include/camping.php">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-              <folding>
-                <element signature="e#6#90#0#PHP" expanded="false" />
-                <marker date="1480007632908" expanded="true" signature="983:1044" ph="SELECT * FRO... account" />
-                <marker date="1480007632908" expanded="true" signature="1097:1156" ph="SELECT id_nu... reserved_account" />
-                <marker date="1480007632908" expanded="true" signature="2261:2312" ph="SELECT id_nu... reservation" />
-                <marker date="1480007632908" expanded="true" signature="2261:2313" ph="SELECT id_nu... reservation" />
-                <marker date="1480007632908" expanded="true" signature="2602:2748" ph="INSERT INTO reservation... " />
-                <marker date="1480007632908" expanded="true" signature="2790:2874" ph="INSERT INTO reserved_tent... " />
-                <marker date="1480007632908" expanded="true" signature="3055:3101" ph="UPDATE tent " />
-                <marker date="1480007632908" expanded="true" signature="3055:3102" ph="UPDATE tent " />
-                <marker date="1480007632908" expanded="true" signature="4803:4804" ph="..." />
-                <marker date="1480007632908" expanded="true" signature="4950:4980" ph="SELECT DISTI... tent" />
-                <marker date="1480007632908" expanded="true" signature="5281:5337" ph="SELECT * FRO... tent" />
-                <marker date="1480007632908" expanded="true" signature="6415:9826" ph="..." />
-                <marker date="1480007632908" expanded="true" signature="6506:6585" ph="..." />
-              </folding>
+            <state relative-caret-position="-1420">
+              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,24 +146,110 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$errorBox</find>
+      <find>'</find>
+      <find>&lt;</find>
+      <find>&quot;eventName&quot;</find>
+      <find>errorms</find>
+      <find>$phone</find>
+      <find>email</find>
+      <find>&lt;span class=&quot;input-group-addon&quot;&gt;</find>
+      <find>$country</find>
+      <find>$tent_num</find>
+      <find>_reserve_tent</find>
+      <find>&quot;tent_num&quot;</find>
+      <find>&quot;id_number&quot;</find>
+      <find>Last_name</find>
+      <find>user_id</find>
+      <find>$path_head .</find>
+      <find>(</find>
+      <find>fa-tim</find>
+      <find>&gt;';</find>
+      <find>css</find>
+      <find>$query</find>
+      <find>$result</find>
+      <find>col-md-</find>
+      <find>col-sm</find>
+      <find>corner</find>
+      <find>col-xs-4</find>
+      <find>event</find>
+      <find>require(</find>
+      <find>error</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>box</replace>
+      <replace />
+      <replace>'&lt;</replace>
+      <replace>eventName</replace>
+      <replace>$mobile</replace>
+      <replace>password</replace>
+      <replace>&lt;span class=&quot;input-group-addon&quot;&gt;</replace>
+      <replace>$nationality</replace>
+      <replace>$spot_id</replace>
+      <replace>_reserve_spot</replace>
+      <replace>&quot;spot_id&quot;</replace>
+      <replace>&quot;user_id&quot;</replace>
+      <replace>username</replace>
+      <replace>($path_head.</replace>
+      <replace>&gt;</replace>
+      <replace>$query_vote</replace>
+      <replace>$result_vote</replace>
+      <replace>col-sm-</replace>
+      <replace>col-xs-12 col-sm</replace>
+      <replace>col-xs-12 col-sm-4</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/include/home.php" />
-        <option value="$PROJECT_DIR$/component/connectvars.php" />
         <option value="$PROJECT_DIR$/css/_base_outline.scss" />
         <option value="$PROJECT_DIR$/component/reservation.php" />
         <option value="$PROJECT_DIR$/component/functions.php" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/_base_variables.scss" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/_layout_home.scss" />
+        <option value="$PROJECT_DIR$/js/event.js" />
         <option value="$PROJECT_DIR$/css/_layout_camping.scss" />
-        <option value="$PROJECT_DIR$/js/reservation.js" />
+        <option value="$PROJECT_DIR$/css/_layout_signup.scss" />
+        <option value="$PROJECT_DIR$/component/dbhelper.php" />
+        <option value="$PROJECT_DIR$/include/camping.test.php" />
+        <option value="$PROJECT_DIR$/include/signup.test.php" />
+        <option value="$PROJECT_DIR$/include/logout.php" />
+        <option value="$PROJECT_DIR$/component/appvars.php" />
+        <option value="$PROJECT_DIR$/css/module.media.lg.scss" />
+        <option value="$PROJECT_DIR$/include/flyer.php" />
+        <option value="$PROJECT_DIR$/css/layout.flyer.scss" />
+        <option value="$PROJECT_DIR$/css/layout.nav.footer.scss" />
         <option value="$PROJECT_DIR$/include/camping.php" />
+        <option value="$PROJECT_DIR$/css/layout.vote.scss" />
+        <option value="$PROJECT_DIR$/css/layout.home.scss" />
+        <option value="$PROJECT_DIR$/include/home.php" />
+        <option value="$PROJECT_DIR$/include/login.php" />
+        <option value="$PROJECT_DIR$/css/layout.signup.scss" />
+        <option value="$PROJECT_DIR$/css/base.variables.scss" />
+        <option value="$PROJECT_DIR$/css/stylesheet.scss" />
+        <option value="$PROJECT_DIR$/include/signup.php" />
+        <option value="$PROJECT_DIR$/css/layout.camping.scss" />
+        <option value="$PROJECT_DIR$/css/module.media.sm.scss" />
+        <option value="$PROJECT_DIR$/css/module.paybox.scss" />
+        <option value="$PROJECT_DIR$/css/module.media.xs.scss" />
+        <option value="$PROJECT_DIR$/css/scss/stylesheet.scss" />
+        <option value="$PROJECT_DIR$/css/scss/_layout.vote.scss" />
+        <option value="$PROJECT_DIR$/include/vote.php" />
+        <option value="$PROJECT_DIR$/js/vote.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/component/overview.php" />
+        <option value="$PROJECT_DIR$/css/scss/_module.paybox.scss" />
+        <option value="$PROJECT_DIR$/css/scss/_module.media.xs.scss" />
+        <option value="$PROJECT_DIR$/css/scss/_layout.nav.footer.scss" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/component/connectvars.php" />
+        <option value="$PROJECT_DIR$/js/reservation.js" />
+        <option value="$PROJECT_DIR$/include/camping.v1.php" />
       </list>
     </option>
   </component>
@@ -147,16 +269,6 @@
     <option name="width" value="1938" />
     <option name="height" value="1060" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -172,15 +284,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foodplus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="foodplus" />
@@ -243,29 +350,57 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodplus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodplus" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="component" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/web2assignments/web2project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="SearchEverywhereHistoryKey" value="errormsg&#9;null&#9;null&#10;follow&#9;null&#9;null&#10;btnb&#9;null&#9;null&#10;paymentsu&#9;null&#9;null&#10;btnS&#9;null&#9;null&#10;btnsec&#9;null&#9;null&#10;btn&#9;null&#9;null&#10;btnbu&#9;null&#9;null&#10;btnbuy&#9;null&#9;null&#10;confo&#9;null&#9;null&#10;votesucc&#9;null&#9;null&#10;followl&#9;null&#9;null&#10;.bg&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\foodplus\css\scss" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\foodplus\component" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.camping.php">
-    <configuration default="false" name="camping.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foodplus/include/camping.php">
+  <component name="RunManager" selected="JavaScript Debug.camping.test.php">
+    <configuration default="false" name="camping.test.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/foodplus/include/camping.test.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -290,6 +425,10 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -300,7 +439,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -320,11 +459,11 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.camping.php" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.camping.test.php" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.camping.php" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.camping.test.php" />
       </list>
     </recent_temporary>
   </component>
@@ -350,36 +489,67 @@
       <workItem from="1479931082851" duration="464000" />
       <workItem from="1479933207137" duration="14407000" />
       <workItem from="1479984010664" duration="23309000" />
+      <workItem from="1480283504727" duration="19000" />
+      <workItem from="1480283676515" duration="1232000" />
+      <workItem from="1480335014884" duration="4426000" />
+      <workItem from="1480352387737" duration="10758000" />
+      <workItem from="1480409408929" duration="3077000" />
+      <workItem from="1480435423095" duration="9773000" />
+      <workItem from="1480508047091" duration="16979000" />
+      <workItem from="1480588842051" duration="39317000" />
+      <workItem from="1480682329268" duration="41302000" />
+      <workItem from="1480940306116" duration="4926000" />
+      <workItem from="1480970991837" duration="66000" />
+      <workItem from="1481014131087" duration="2689000" />
+      <workItem from="1481201764375" duration="28082000" />
+      <workItem from="1481283042719" duration="4217000" />
+      <workItem from="1481544959524" duration="2320000" />
+      <workItem from="1482095307670" duration="3238000" />
+      <workItem from="1482098549321" duration="6814000" />
+      <workItem from="1483568653135" duration="640000" />
+      <workItem from="1483807218146" duration="1673000" />
+      <workItem from="1483971644969" duration="1243000" />
+      <workItem from="1483990440702" duration="665000" />
+      <workItem from="1484048957806" duration="3737000" />
+      <workItem from="1484242980497" duration="1549000" />
+      <workItem from="1484305461868" duration="4163000" />
+      <workItem from="1485300493153" duration="677000" />
+      <workItem from="1485348556701" duration="617000" />
+      <workItem from="1485431780941" duration="321000" />
+      <workItem from="1486067919869" duration="2504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92775000" />
+    <option name="totallyTimeSpent" value="289799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14769065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16058002" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21117319" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -394,509 +564,390 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/include/camping.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="false" />
-            <marker date="1480007632908" expanded="true" signature="983:1044" ph="SELECT * FRO... account" />
-            <marker date="1480007632908" expanded="true" signature="1097:1156" ph="SELECT id_nu... reserved_account" />
-            <marker date="1480007632908" expanded="true" signature="2261:2312" ph="SELECT id_nu... reservation" />
-            <marker date="1480007632908" expanded="true" signature="2261:2313" ph="SELECT id_nu... reservation" />
-            <marker date="1480007632908" expanded="true" signature="2602:2748" ph="INSERT INTO reservation... " />
-            <marker date="1480007632908" expanded="true" signature="2790:2874" ph="INSERT INTO reserved_tent... " />
-            <marker date="1480007632908" expanded="true" signature="3055:3101" ph="UPDATE tent " />
-            <marker date="1480007632908" expanded="true" signature="3055:3102" ph="UPDATE tent " />
-            <marker date="1480007632908" expanded="true" signature="4803:4804" ph="..." />
-            <marker date="1480007632908" expanded="true" signature="4950:4980" ph="SELECT DISTI... tent" />
-            <marker date="1480007632908" expanded="true" signature="5281:5337" ph="SELECT * FRO... tent" />
-            <marker date="1480007632908" expanded="true" signature="6415:9826" ph="..." />
-            <marker date="1480007632908" expanded="true" signature="6506:6585" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_base_outline.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component/reservation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_layout_camping.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_base_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="50" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
-          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
-          <folding />
+          <caret line="83" column="6" lean-forward="false" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/camping.php">
+    <entry file="file://$PROJECT_DIR$/include/camping.test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="false" />
-            <marker date="1480007632908" expanded="true" signature="983:1044" ph="SELECT * FRO... account" />
-            <marker date="1480007632908" expanded="true" signature="1097:1156" ph="SELECT id_nu... reserved_account" />
-            <marker date="1480007632908" expanded="true" signature="2261:2312" ph="SELECT id_nu... reservation" />
-            <marker date="1480007632908" expanded="true" signature="2261:2313" ph="SELECT id_nu... reservation" />
-            <marker date="1480007632908" expanded="true" signature="2602:2748" ph="INSERT INTO reservation... " />
-            <marker date="1480007632908" expanded="true" signature="2790:2874" ph="INSERT INTO reserved_tent... " />
-            <marker date="1480007632908" expanded="true" signature="3055:3101" ph="UPDATE tent " />
-            <marker date="1480007632908" expanded="true" signature="3055:3102" ph="UPDATE tent " />
-            <marker date="1480007632908" expanded="true" signature="4803:4804" ph="..." />
-            <marker date="1480007632908" expanded="true" signature="4950:4980" ph="SELECT DISTI... tent" />
-            <marker date="1480007632908" expanded="true" signature="5281:5337" ph="SELECT * FRO... tent" />
-            <marker date="1480007632908" expanded="true" signature="6415:9826" ph="..." />
-            <marker date="1480007632908" expanded="true" signature="6506:6585" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_base_outline.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component/reservation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_layout_camping.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_base_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="50" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/camping.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="false" />
-            <marker date="1480007632908" expanded="true" signature="983:1044" ph="SELECT * FRO... account" />
-            <marker date="1480007632908" expanded="true" signature="1097:1156" ph="SELECT id_nu... reserved_account" />
-            <marker date="1480007632908" expanded="true" signature="2261:2312" ph="SELECT id_nu... reservation" />
-            <marker date="1480007632908" expanded="true" signature="2261:2313" ph="SELECT id_nu... reservation" />
-            <marker date="1480007632908" expanded="true" signature="2602:2748" ph="INSERT INTO reservation... " />
-            <marker date="1480007632908" expanded="true" signature="2790:2874" ph="INSERT INTO reserved_tent... " />
-            <marker date="1480007632908" expanded="true" signature="3055:3101" ph="UPDATE tent " />
-            <marker date="1480007632908" expanded="true" signature="3055:3102" ph="UPDATE tent " />
-            <marker date="1480007632908" expanded="true" signature="4803:4804" ph="..." />
-            <marker date="1480007632908" expanded="true" signature="4950:4980" ph="SELECT DISTI... tent" />
-            <marker date="1480007632908" expanded="true" signature="5281:5337" ph="SELECT * FRO... tent" />
-            <marker date="1480007632908" expanded="true" signature="6415:9826" ph="..." />
-            <marker date="1480007632908" expanded="true" signature="6506:6585" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_base_outline.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_layout_camping.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_base_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="50" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/camping.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="false" />
-            <marker date="1480007632908" expanded="true" signature="983:1044" ph="SELECT * FRO... account" />
-            <marker date="1480007632908" expanded="true" signature="1097:1156" ph="SELECT id_nu... reserved_account" />
-            <marker date="1480007632908" expanded="true" signature="2261:2312" ph="SELECT id_nu... reservation" />
-            <marker date="1480007632908" expanded="true" signature="2261:2313" ph="SELECT id_nu... reservation" />
-            <marker date="1480007632908" expanded="true" signature="2602:2748" ph="INSERT INTO reservation... " />
-            <marker date="1480007632908" expanded="true" signature="2790:2874" ph="INSERT INTO reserved_tent... " />
-            <marker date="1480007632908" expanded="true" signature="3055:3101" ph="UPDATE tent " />
-            <marker date="1480007632908" expanded="true" signature="3055:3102" ph="UPDATE tent " />
-            <marker date="1480007632908" expanded="true" signature="4803:4804" ph="..." />
-            <marker date="1480007632908" expanded="true" signature="4950:4980" ph="SELECT DISTI... tent" />
-            <marker date="1480007632908" expanded="true" signature="5281:5337" ph="SELECT * FRO... tent" />
-            <marker date="1480007632908" expanded="true" signature="6415:9826" ph="..." />
-            <marker date="1480007632908" expanded="true" signature="6506:6585" ph="..." />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-          <folding />
+          <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_layout_camping.scss">
+    <entry file="file://$PROJECT_DIR$/css/scss/_layout.camping.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_base_variables.scss">
+    <entry file="file://$PROJECT_DIR$/css/scss/_base.variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
-          <caret line="46" column="50" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="50" />
-          <folding />
+          <caret line="46" column="50" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="50" />
+          <folding>
+            <marker date="1485987148381" expanded="true" signature="2687:2730" ph="UPDATE user " />
+            <marker date="1485987148381" expanded="true" signature="3340:3391" ph="INSERT INTO subscriptions... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
-          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
-          <folding />
+          <caret line="83" column="6" lean-forward="false" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/camping.php">
+    <entry file="file://$PROJECT_DIR$/include/camping.test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="false" />
-            <marker date="1480007632908" expanded="true" signature="983:1044" ph="SELECT * FRO... account" />
-            <marker date="1480007632908" expanded="true" signature="1097:1156" ph="SELECT id_nu... reserved_account" />
-            <marker date="1480007632908" expanded="true" signature="2261:2312" ph="SELECT id_nu... reservation" />
-            <marker date="1480007632908" expanded="true" signature="2261:2313" ph="SELECT id_nu... reservation" />
-            <marker date="1480007632908" expanded="true" signature="2602:2748" ph="INSERT INTO reservation... " />
-            <marker date="1480007632908" expanded="true" signature="2790:2874" ph="INSERT INTO reserved_tent... " />
-            <marker date="1480007632908" expanded="true" signature="3055:3101" ph="UPDATE tent " />
-            <marker date="1480007632908" expanded="true" signature="3055:3102" ph="UPDATE tent " />
-            <marker date="1480007632908" expanded="true" signature="4803:4804" ph="..." />
-            <marker date="1480007632908" expanded="true" signature="4950:4980" ph="SELECT DISTI... tent" />
-            <marker date="1480007632908" expanded="true" signature="5281:5337" ph="SELECT * FRO... tent" />
-            <marker date="1480007632908" expanded="true" signature="6415:9826" ph="..." />
-            <marker date="1480007632908" expanded="true" signature="6506:6585" ph="..." />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding />
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_layout_camping.scss">
+    <entry file="file://$PROJECT_DIR$/css/scss/_layout.camping.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_base_variables.scss">
+    <entry file="file://$PROJECT_DIR$/css/scss/_base.variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component/connectvars.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component/appvars.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component/reservation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_base_outline.scss">
+    <entry file="file://$PROJECT_DIR$/css/scss/_base.outline.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="false" />
-          </folding>
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/index.php" />
+    <entry file="file://$USER_HOME$/Downloads/login.php" />
     <entry file="file://$PROJECT_DIR$/component/dbhelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="528">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="104" lean-forward="false" selection-start-line="19" selection-start-column="104" selection-end-line="19" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/appvars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/_base.mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/_layout.flyer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/flyer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_base_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_layout_flyer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_layout_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_base_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_layout_camping.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/reservation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-830">
-          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="414">
+          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$USER_HOME$/Downloads/PayPalCode/PayPalCode/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/PayPalCode/PayPalCode/paypal.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2700">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/PayPalCode/PayPalCode/paypal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1776">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/_layout.signup.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/signup.test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="37" column="39" lean-forward="true" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/stylesheet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="441" column="7" lean-forward="false" selection-start-line="441" selection-start-column="7" selection-end-line="441" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/overview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vote.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="68" column="35" lean-forward="false" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/_layout.nav.footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="62" column="44" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/_base.variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/_module.paybox.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/_layout.home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/_module.media.xs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/_module.media.sm.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="63" column="3" lean-forward="false" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/camping.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        <state relative-caret-position="578">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding>
-            <element signature="e#6#90#0#PHP" expanded="false" />
-            <marker date="1480007632908" expanded="true" signature="983:1044" ph="SELECT * FRO... account" />
-            <marker date="1480007632908" expanded="true" signature="1097:1156" ph="SELECT id_nu... reserved_account" />
-            <marker date="1480007632908" expanded="true" signature="2261:2312" ph="SELECT id_nu... reservation" />
-            <marker date="1480007632908" expanded="true" signature="2261:2313" ph="SELECT id_nu... reservation" />
-            <marker date="1480007632908" expanded="true" signature="2602:2748" ph="INSERT INTO reservation... " />
-            <marker date="1480007632908" expanded="true" signature="2790:2874" ph="INSERT INTO reserved_tent... " />
-            <marker date="1480007632908" expanded="true" signature="3055:3101" ph="UPDATE tent " />
-            <marker date="1480007632908" expanded="true" signature="3055:3102" ph="UPDATE tent " />
-            <marker date="1480007632908" expanded="true" signature="4803:4804" ph="..." />
-            <marker date="1480007632908" expanded="true" signature="4950:4980" ph="SELECT DISTI... tent" />
-            <marker date="1480007632908" expanded="true" signature="5281:5337" ph="SELECT * FRO... tent" />
-            <marker date="1480007632908" expanded="true" signature="6415:9826" ph="..." />
-            <marker date="1480007632908" expanded="true" signature="6506:6585" ph="..." />
+            <marker date="1480958972430" expanded="true" signature="1231:1285" ph="SELECT user_... user" />
+            <marker date="1480958972430" expanded="true" signature="2554:2742" ph="INSERT INTO reservation... " />
+            <marker date="1480958972430" expanded="true" signature="3036:3087" ph="UPDATE campi... " />
+            <marker date="1480958972430" expanded="true" signature="4786:4828" ph="SELECT DISTI... camping_spot" />
+            <marker date="1480958972430" expanded="true" signature="5129:5201" ph="SELECT * FRO... camping_spot" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/camping.test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3553">
+          <caret line="209" column="41" lean-forward="false" selection-start-line="209" selection-start-column="41" selection-end-line="209" selection-end-column="41" />
+          <folding>
+            <marker date="1480593527044" expanded="true" signature="998:1059" ph="SELECT id_nu... account" />
+            <marker date="1480593527044" expanded="true" signature="2263:2409" ph="INSERT INTO reservation... " />
+            <marker date="1480593527044" expanded="true" signature="2447:2531" ph="INSERT INTO reserved_tent... " />
+            <marker date="1480593527044" expanded="true" signature="2700:2747" ph="UPDATE tent " />
+            <marker date="1480593527044" expanded="true" signature="4459:4489" ph="SELECT DISTI... tent" />
+            <marker date="1480593527044" expanded="true" signature="4790:4846" ph="SELECT * FRO... tent" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/_layout.camping.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/FoodPlus/foodplus/component/connectvars.php" />
+    <entry file="file://$PROJECT_DIR$/include/vote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding>
+            <marker date="1482098232112" expanded="true" signature="697:738" ph="UPDATE compe... " />
+            <marker date="1482098232112" expanded="true" signature="1291:1356" ph="UPDATE user " />
+            <marker date="1482098232112" expanded="true" signature="2528:2557" ph="SELECT * FRO... competitor_test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/_layout.vote.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1420">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/connectvars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#6#53#0#PHP" expanded="true" />
+            <element signature="e#169#203#0#PHP" expanded="true" />
+            <element signature="e#465#512#0#PHP" expanded="true" />
+            <element signature="e#630#677#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="61" column="18" lean-forward="false" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+          <folding>
+            <marker date="1485987148381" expanded="true" signature="2687:2730" ph="UPDATE user " />
+            <marker date="1485987148381" expanded="true" signature="3340:3391" ph="INSERT INTO subscriptions... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/reservation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="260" column="40" lean-forward="false" selection-start-line="260" selection-start-column="40" selection-end-line="260" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/camping.v1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <marker date="1486069401260" expanded="true" signature="1000:1184" ph="INSERT INTO reservation... " />
+            <marker date="1486069401260" expanded="true" signature="1284:1335" ph="UPDATE campi... " />
+            <marker date="1486069401260" expanded="true" signature="1486:1529" ph="UPDATE user " />
+            <marker date="1486069401260" expanded="true" signature="2831:2873" ph="SELECT DISTI... camping_spot" />
+            <marker date="1486069401260" expanded="true" signature="3174:3246" ph="SELECT * FRO... camping_spot" />
           </folding>
         </state>
       </provider>

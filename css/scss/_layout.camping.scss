@@ -1,0 +1,82 @@
+/*camping site tent section*/
+.campingSiteEven {
+  background: $labelWhite;
+  margin: 0 20px 10px 0;
+  @include border-radius(5px);
+  @include box-shadow(5px, 5px, 10px, $footerGrey);
+  img {
+    width: 100%;
+  }
+  .tentUnit {
+    padding: 2px;
+  }
+  h5 {
+    margin-top: 0;
+    padding: 10px;
+    text-align: left;
+    background: $mainGreen;
+    color: $labelWhite;
+    @include border-radius(5px);
+  }
+  .row {
+    padding: 0 5px;
+  }
+}
+
+.campingSiteOdd {
+  @extend .campingSiteEven;
+  h5 {
+    background: $mainOrange;
+  }
+}
+
+.available {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.interested {
+  @extend .available;
+}
+
+/*reservation form section*/
+.content {
+  .form-group {
+    margin: 0;
+  }
+}
+
+.reservationForm {
+  background: $labelWhite;
+  padding: 10px 10px 60px 10px;
+  @include border-radius(5px);
+  @include box-shadow(2px, 2px, 10px, $footerGrey);
+  #btnSubmit {
+    margin-top: 5px;
+  }
+}
+
+/*error and conformation message*/
+.confirmation {
+  margin: 0;
+  padding: 100px 0 250px 0;
+  text-align: center;
+}
+
+.errorMsg {
+  display: none;
+  margin: 5px;
+  i {
+    @include position(absolute, $top: 0, $right: 0);
+    font-size: 2em;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.reject {
+  @extend .errorMsg;
+  display: block;
+}

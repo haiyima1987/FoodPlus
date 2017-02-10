@@ -1,0 +1,71 @@
+/*each flyerSection and its container*/
+.sectionContainer {
+  clear: both;
+}
+
+.flyerSection {
+  margin-top: 15px;
+  background: $mainYellowOpaque;
+  padding: 0;
+  position: relative;
+  .flyerSectionImg {
+    padding: 10px;
+    img {
+      width: 100%;
+    }
+  }
+  .flyerSectionText {
+    @include position(absolute, 0, 0, 0, 0);
+    p {
+      font: normal bold 16px "Maiandra GD", monospace;
+      @include position(absolute, $bottom: 30%, $right: 5%, $left: 20%);
+      text-align: justify;
+    }
+    .flyerSectionLabel {
+      @include position(absolute, $top: 30px, $right: -30px);
+    }
+  }
+}
+
+/*label on each flyerSection*/
+.flyerSectionLabel {
+  text-align: center;
+  padding: 8px 24px;
+  border: 2px solid $labelWhite;
+  background: $labelGrey;
+  color: $labelWhite;
+  font: normal bold 1.5em "Cooper Black", sans-serif;
+  z-index: 3;
+  @include font-face(Cooper Black, "font/cooper_black", bold, normal);
+}
+
+/*buttons in each flyer section*/
+.btnflyerSection {
+  width: 160px;
+  height: 40px;
+  padding: 5px;
+  font: normal normal 22px "Copperplate Gothic Bold", sans-serif;
+  background: $labelDarkGrey;
+  border: 2px solid $labelWhite;
+  color: $labelWhite;
+  @include position(absolute, $bottom: 10px, $right: 0);
+  text-align: center;
+  &:hover {
+    text-decoration: none;
+    color: $labelWhite;
+  }
+}
+
+#flyerSectionMiddle {
+  background: $mainOrangeOpaque;
+  p {
+    @include position(absolute, $bottom: 30%, $left: 5%, $right: 20%);
+  }
+  .flyerSectionLabelMiddle {
+    @extend .flyerSectionLabel;
+    @include position(absolute, $top: 30px, $left: -30px);
+  }
+  .btnflyerSection {
+    @include position(absolute, $bottom: 10px, $left: 0);
+  }
+}

@@ -1,0 +1,158 @@
+nav {
+  position: relative;
+  background: $headerGrey;
+  width: 100%;
+  //min-width: 980px;
+  height: 60px;
+  z-index: 5;
+  li {
+    display: inline-block;
+    border: 2px solid $labelWhite;
+    margin: 0 0 0 -6px;
+    padding: 10px 15px;
+    height: 60px;
+    font-size: 24px;
+    a {
+      color: $labelWhite;
+      font-family: Impact, sans-serif;
+    }
+    &:hover {
+      background: $labelWhite;
+      a {
+        color: $headerGrey;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.leftNav {
+  padding: 0;
+  //@include position(absolute, $top: 0, $left: 80px);
+}
+
+.rightNav {
+  padding: 0;
+  text-align: right;
+  h4 {
+    display: inline;
+    @include position(relative, $right: 15%);
+    color: $labelWhite;
+  }
+}
+
+.footerAbove {
+  background: $footerGrey;
+  text-align: center;
+  height: 200px;
+  h4 {
+    color: $footerBlack;
+    font-weight: bold;
+  }
+}
+
+.followUs {
+  background: $footerLightGrey;
+  padding: 20px 0 0 0;
+  height: 100%;
+  .followLogo {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: $labelWhite;
+    @include position(relative, $top: 10px);
+    @include border-radius(50%);
+    @include transition(all, 0.25s, ease-in-out);
+    i {
+      font-size: 240%;
+      color: $mainOrange;
+      @include position(absolute, $top: 50%, $left: 50%);
+      @include translate(-50%, -50%);
+    }
+    &:hover {
+      @include scale(-1, 1);
+    }
+  }
+}
+
+.about {
+  padding: 20px 0 0 0;
+}
+
+.news {
+  @extend .about;
+  .form-inline {
+    margin-top: 40px;
+    padding: 0;
+  }
+}
+
+.footer {
+  height: 40px;
+  background: $headerGrey;
+  .copyright {
+    p {
+      margin: 0;
+      padding: 10px;
+      color: $labelWhite;
+      font: normal normal 16px Impact, sans-serif;
+    }
+  }
+}
+
+.footerMenu {
+  ul {
+    margin: 0;
+  }
+  li {
+    padding: 10px 0;
+    display: inline-block;
+    height: 40px;
+    a {
+      padding: 0 10px;
+      color: $labelWhite;
+      font: normal normal 16px Impact, sans-serif;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// menu button
+.btnMenu {
+  display: none;
+  position: relative;
+  background: $labelWhite;
+  @include position(fixed, $top: 10px, $left: 10px);
+  @include border-radius(50%);
+  z-index: 10;
+  height: 50px;
+  width: 50px;
+  opacity: 0.8;
+  i {
+    color: $labelGrey;
+    font-size: 36px;
+    @include position(absolute, $top: 50%, $left: 50%);
+    @include translate(-50%, -50%);
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+// scroll up button
+.btnUp {
+  @include position(fixed, $right: 20px, $bottom: 40px);
+  z-index: 1;
+  display: none;
+  color: $labelGrey;
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  i {
+    font-size: 60px;
+  }
+}

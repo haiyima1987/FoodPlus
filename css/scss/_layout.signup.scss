@@ -1,0 +1,19 @@
+.signUpForm {
+  padding: 100px 0;
+}
+
+.confirm {
+  margin: 0;
+  padding: 200px;
+}
+
+.logInForm {
+  padding: 200px 0;
+}
+
+.signUpType {
+  .input-group-addon {
+    border: 1px solid $borderGreyRegular;
+    @include border-radius(6px);
+  }
+}

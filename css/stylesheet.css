@@ -59,7 +59,13 @@ p {
   color: #e6e6e6;
   font: normal bold 1.5em "Cooper Black", sans-serif;
   z-index: 3; }
-
+@font-face {
+  .flyerSectionLabel, #flyerSectionMiddle .flyerSectionLabelMiddle, .headingRight a {
+    font-family: Cooper Black;
+    src: url("font/cooper_black.eot");
+    src: url("font/cooper_black.eot?#iefix") format("embedded-opentype"), url("font/cooper_black.woff") format("woff"), url("font/cooper_black.ttf") format("truetype"), url("font/cooper_black.svg#Cooper Black") format("svg");
+    font-weight: bold;
+    font-style: normal; } }
 /*buttons in each flyer section*/
 .btnflyerSection {
   width: 160px;
@@ -77,7 +83,6 @@ p {
     text-decoration: none;
     color: #e6e6e6; }
 
-/*middle flyerSection orange and text on the right side*/
 #flyerSectionMiddle {
   background: rgba(239, 62, 9, 0.8); }
   #flyerSectionMiddle p {
@@ -135,10 +140,14 @@ p {
 .headingRight {
   margin-top: 120px; }
   .headingRight ul {
+    list-style: none;
     padding: 0; }
     .headingRight ul li {
-      margin: 20px;
+      margin: 4px;
       text-align: left; }
+  .headingRight a {
+    display: inline-block;
+    width: 240px; }
 
 /*information panel*/
 .infoPanel, .eventPanel {
@@ -183,8 +192,7 @@ p {
   .infoSection p, .eventSection p {
     margin: 0;
     padding: 4px;
-    color: #e6e6e6;
-    font-weight: bold; }
+    color: #e6e6e6; }
 
 .eventPanel {
   margin-top: 20px;
@@ -204,7 +212,7 @@ p {
     margin: 10px;
     background: rgba(77, 77, 77, 0.8);
     color: #e6e6e6;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center; }
     .eventSection .eventLabel .corner {
       background: rgba(254, 252, 52, 0.9);
@@ -259,26 +267,101 @@ p {
     margin-top: 5px; }
 
 /*error and conformation message*/
-.conformation {
+.confirmation {
   margin: 0;
   padding: 100px 0 250px 0;
   text-align: center; }
 
-.errorMsg {
+.errorMsg, .reject {
   display: none;
   margin: 5px; }
-  .errorMsg i {
+  .errorMsg i, .reject i {
     position: absolute;
     top: 0;
     right: 0;
     font-size: 2em; }
+    .errorMsg i:hover, .reject i:hover {
+      cursor: pointer; }
+
+.reject {
+  display: block; }
+
+.signUpForm {
+  padding: 100px 0; }
+
+.confirm {
+  margin: 0;
+  padding: 200px; }
+
+.logInForm {
+  padding: 200px 0; }
+
+.signUpType .input-group-addon {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px; }
+
+.competitor {
+  padding: 0; }
+
+.frame {
+  margin: 5px;
+  padding: 6px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 5px #e6e6e6;
+  -moz-box-shadow: 2px 2px 5px #e6e6e6;
+  box-shadow: 2px 2px 5px #e6e6e6;
+  background: #fefc34; }
+  .frame img {
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 10px; }
+  .frame h3 {
+    margin: 0;
+    padding: 5px; }
+  .frame h5 {
+    margin: 0;
+    padding: 5px; }
+  .frame:hover {
+    background: #12bf0a;
+    cursor: pointer; }
+
+.unselected {
+  background: #fefc34; }
+
+.selected {
+  background: #12bf0a; }
+
+.btnVotes {
+  margin-top: 50px; }
+
+#votesLeft {
+  display: none; }
+
+.voteSuccess {
+  margin: 0;
+  padding: 220px;
+  text-align: center; }
+
+#warningBox {
+  padding: 20px;
+  display: none;
+  border: 2px solid #969696;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+  #warningBox button {
+    margin-top: 20px; }
 
 nav {
   position: relative;
   background: #696969;
   width: 100%;
-  min-width: 980px;
-  height: 60px; }
+  height: 60px;
+  z-index: 5; }
   nav li {
     display: inline-block;
     border: 2px solid #e6e6e6;
@@ -296,14 +379,16 @@ nav {
         text-decoration: none; }
 
 .leftNav {
-  position: absolute;
-  top: 0;
-  left: 80px; }
+  padding: 0; }
 
 .rightNav {
-  position: absolute;
-  top: 0;
-  right: 80px; }
+  padding: 0;
+  text-align: right; }
+  .rightNav h4 {
+    display: inline;
+    position: relative;
+    right: 15%;
+    color: #e6e6e6; }
 
 .footerAbove {
   background: #969696;
@@ -352,15 +437,9 @@ nav {
 .about, .news {
   padding: 20px 0 0 0; }
 
-.news .form-group {
-  margin-top: 20px; }
-.news .btnSection {
-  width: 100px;
-  height: 35px;
-  padding: 0;
-  position: static;
-  font-size: 18px;
-  margin: 15px 0 0 0; }
+.news .form-inline {
+  margin-top: 40px;
+  padding: 0; }
 
 .footer {
   height: 40px;
@@ -374,7 +453,7 @@ nav {
 .footerMenu ul {
   margin: 0; }
 .footerMenu li {
-  padding: 10px;
+  padding: 10px 0;
   display: inline-block;
   height: 40px; }
   .footerMenu li a {
@@ -383,5 +462,254 @@ nav {
     font: normal normal 16px Impact, sans-serif; }
     .footerMenu li a:hover {
       text-decoration: none; }
+
+.btnMenu {
+  display: none;
+  position: relative;
+  background: #e6e6e6;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  z-index: 10;
+  height: 50px;
+  width: 50px;
+  opacity: 0.8; }
+  .btnMenu i {
+    color: #666;
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  .btnMenu:hover {
+    cursor: pointer; }
+
+.btnUp {
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  z-index: 1;
+  display: none;
+  color: #666;
+  opacity: 0.8; }
+  .btnUp:hover {
+    opacity: 1;
+    cursor: pointer; }
+  .btnUp i {
+    font-size: 60px; }
+
+.payBox {
+  padding: 10px;
+  display: none;
+  background: #d3d3d3;
+  border: 2px solid #666;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+  .payBox i {
+    font-size: 2em; }
+    .payBox i:hover {
+      cursor: pointer; }
+
+.btnBuyTicket {
+  position: fixed;
+  top: 90px;
+  right: 20px;
+  -webkit-box-shadow: 2px 2px 5px #666;
+  -moz-box-shadow: 2px 2px 5px #666;
+  box-shadow: 2px 2px 5px #666;
+  z-index: 5; }
+
+.paymentSuccess {
+  margin: 0; }
+
+.subscribeInfo {
+  margin: 0; }
+
+@media only screen and (max-width: 992px) {
+  .headingLeft {
+    display: none; }
+
+  .headingRight {
+    margin-top: 50px; }
+
+  .eventSection .eventLabel {
+    font-size: 1.2em; }
+
+  .content {
+    padding: 10px; }
+
+  .flyerSection .flyerSectionText p {
+    position: absolute;
+    right: 20px;
+    bottom: 60px;
+    left: 20px;
+    font-size: 1em; }
+  .flyerSection .flyerSectionText .flyerSectionLabel, .flyerSection .flyerSectionText #flyerSectionMiddle .flyerSectionLabelMiddle, #flyerSectionMiddle .flyerSection .flyerSectionText .flyerSectionLabelMiddle, .flyerSection .flyerSectionText .headingRight a, .headingRight .flyerSection .flyerSectionText a {
+    position: absolute;
+    top: 10px;
+    right: -30px; }
+
+  .btnflyerSection {
+    width: 120px;
+    height: auto;
+    font-size: 16px; }
+
+  #flyerSectionMiddle p {
+    position: absolute;
+    right: 20px;
+    bottom: 60px;
+    left: 20px; }
+  #flyerSectionMiddle .flyerSectionLabelMiddle {
+    position: absolute;
+    top: 10px;
+    left: -30px; }
+  #flyerSectionMiddle .btnflyerSection {
+    position: absolute;
+    bottom: 10px;
+    left: 0; } }
+@media only screen and (max-width: 768px) {
+  nav li {
+    padding: 10px 6px; }
+
+  .rightNav h4 {
+    font-size: 1em;
+    position: relative;
+    right: 5%; }
+
+  .headingRight ul li {
+    margin: 10px;
+    display: inline-block; }
+
+  .infoSection, .eventSection {
+    margin-bottom: 20px; }
+
+  .campingSiteEven, .campingSiteOdd, .campingSiteOdd {
+    margin-right: 0; }
+
+  .footerMenu {
+    display: none; } }
+@media only screen and (max-width: 640px) {
+  nav {
+    display: none;
+    height: 240px;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    z-index: 10; }
+    nav li {
+      padding: 8px;
+      height: 40px;
+      font-size: 16px;
+      width: 100%;
+      background: #696969; }
+
+  .leftNav {
+    margin: 0;
+    text-align: center; }
+
+  .rightNav {
+    margin: 0;
+    text-align: center; }
+    .rightNav h4 {
+      display: none; }
+
+  .btnMenu {
+    display: block; }
+
+  .bg .bgImg {
+    height: 320px; }
+
+  .headingRight {
+    margin-top: 40px; }
+    .headingRight a {
+      width: 180px; }
+
+  .btnVotes {
+    margin-bottom: 50px; }
+
+  .flyerSection .flyerSectionText p {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    left: 20px;
+    font-size: 0.8em; }
+  .flyerSection .flyerSectionText .flyerSectionLabel, .flyerSection .flyerSectionText #flyerSectionMiddle .flyerSectionLabelMiddle, #flyerSectionMiddle .flyerSection .flyerSectionText .flyerSectionLabelMiddle, .flyerSection .flyerSectionText .headingRight a, .headingRight .flyerSection .flyerSectionText a {
+    position: absolute;
+    top: 10px;
+    right: -30px; }
+
+  .flyerSectionLabel, #flyerSectionMiddle .flyerSectionLabelMiddle, .headingRight a {
+    padding: 5px;
+    font-size: 1em; }
+
+  /*buttons in each flyer section*/
+  .btnflyerSection {
+    width: 120px;
+    height: auto;
+    padding: 2px;
+    font-size: 0.8em; }
+
+  #flyerSectionMiddle p {
+    position: absolute;
+    right: 20px;
+    bottom: 60px;
+    left: 20px; }
+  #flyerSectionMiddle .flyerSectionLabelMiddle {
+    position: absolute;
+    top: 10px;
+    left: -30px; }
+  #flyerSectionMiddle .btnflyerSection {
+    position: absolute;
+    bottom: 10px;
+    left: 0; }
+
+  .btnBuyTicket {
+    position: fixed;
+    top: 20px;
+    right: 20px; }
+
+  .footerAbove {
+    height: 600px; }
+    .footerAbove .followUs {
+      height: 33.3%; }
+    .footerAbove .news {
+      padding: 20px; } }
+@media only screen and (max-width: 480px) {
+  .leftNav {
+    width: 100%; }
+
+  .rightNav {
+    width: 100%; }
+    .rightNav h4 {
+      display: none; }
+
+  .heading h2 {
+    margin: 0;
+    font-size: 1.5em; }
+
+  .headingRight {
+    margin-top: 20px; }
+    .headingRight ul li {
+      margin: 10px; }
+      .headingRight ul li a {
+        padding: 4px 8px;
+        font-size: 1.2em; }
+
+  .infoPanel h3, .eventPanel h3, .eventPanel h3 {
+    font-size: 1.5em; }
+
+  .footer .copyright p {
+    font-size: 1em; }
+
+  .flyerSection {
+    height: 200px; } }
 
 /*# sourceMappingURL=stylesheet.css.map */

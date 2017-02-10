@@ -1,3 +1,4 @@
 <?php
-define('DV_UPLOADPATH', 'img/');
+define('FP_UPLOADPATH', 'img/');
+define('FP_COMPETITORPATH', 'img/competitor/');
 ?>

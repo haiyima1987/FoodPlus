@@ -1,0 +1,152 @@
+@media only screen and (max-width: 640px) {
+  nav {
+    display: none;
+    height: 240px;
+    background: transparent;
+    @include position(absolute, $top: 0);
+    z-index: 10;
+    li {
+      padding: 8px;
+      height: 40px;
+      font-size: 16px;
+      width: 100%;
+      background: $headerGrey;
+    }
+  }
+
+  .leftNav {
+    margin: 0;
+    text-align: center;
+  }
+
+  .rightNav {
+    margin: 0;
+    text-align: center;
+    h4 {
+      display: none;
+    }
+  }
+
+  .btnMenu {
+    display: block;
+  }
+
+  .bg {
+    .bgImg {
+      height: 320px;
+    }
+  }
+
+  .headingRight {
+    margin-top: 40px;
+    a {
+      width: 180px;
+    }
+  }
+
+  .btnVotes {
+    margin-bottom: 50px;
+  }
+
+  .flyerSection {
+    .flyerSectionText {
+      p {
+        @include position(absolute, $top: 50px, $right: 20px, $left: 20px);
+        font-size: 0.8em;
+      }
+      .flyerSectionLabel {
+        @include position(absolute, $top: 10px, $right: -30px);
+      }
+    }
+  }
+
+  .flyerSectionLabel {
+    padding: 5px;
+    font-size: 1em;
+  }
+
+  /*buttons in each flyer section*/
+  .btnflyerSection {
+    width: 120px;
+    height: auto;
+    padding: 2px;
+    font-size: 0.8em;
+  }
+
+  #flyerSectionMiddle {
+    p {
+      @include position(absolute, $bottom: 60px, $left: 20px, $right: 20px);
+    }
+    .flyerSectionLabelMiddle {
+      @include position(absolute, $top: 10px, $left: -30px);
+    }
+    .btnflyerSection {
+      @include position(absolute, $bottom: 10px, $left: 0);
+    }
+  }
+
+  .btnBuyTicket {
+    @include position(fixed, $top: 20px, $right: 20px);
+  }
+
+  .footerAbove {
+    height: 600px;
+    .followUs {
+      height: 33.3%;
+    }
+    .news {
+      padding: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .leftNav {
+    width: 100%;
+  }
+
+  .rightNav {
+    width: 100%;
+    h4 {
+      display: none;
+    }
+  }
+
+  .heading {
+    h2 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+  }
+
+  .headingRight {
+    margin-top: 20px;
+    ul {
+      li {
+        margin: 10px;
+        a {
+          padding: 4px 8px;
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+
+  .infoPanel, .eventPanel {
+    h3 {
+      font-size: 1.5em;
+    }
+  }
+
+  .footer {
+    .copyright {
+      p {
+        font-size: 1em;
+      }
+    }
+  }
+
+  .flyerSection {
+    height: 200px;
+  }
+}

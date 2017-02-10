@@ -1,0 +1,27 @@
+.payBox {
+  padding: 10px;
+  display: none;
+  background: $lightGrey;
+  border: 2px solid $labelGrey;
+  @include border-radius(5px);
+  i {
+    font-size: 2em;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.btnBuyTicket {
+  @include position(fixed, $top: 90px, $right: 20px);
+  @include box-shadow(2px, 2px, 5px, $labelGrey);
+  z-index: 5;
+}
+
+.paymentSuccess {
+  margin: 0;
+}
+
+.subscribeInfo {
+  margin: 0;
+}

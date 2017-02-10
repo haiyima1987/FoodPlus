@@ -1,0 +1,93 @@
+// 992 md starts to apply
+// 992 is still md and max includes 992
+@media only screen and (max-width: 992px) {
+  .headingLeft {
+    display: none;
+  }
+
+  .headingRight {
+    margin-top: 50px;
+  }
+
+  .eventSection {
+    .eventLabel {
+      font-size: 1.2em;
+    }
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .flyerSection {
+
+    .flyerSectionText {
+      //@include position(absolute, 0, 0, 0, 0);
+      p {
+        //  font: normal bold 16px "Maiandra GD", monospace;
+        @include position(absolute, $bottom: 60px, $right: 20px, $left: 20px);
+        font-size: 1em;
+        //  text-align: justify;
+      }
+      .flyerSectionLabel {
+        @include position(absolute, $top: 10px, $right: -30px);
+      }
+    }
+  }
+
+  .btnflyerSection {
+    width: 120px;
+    height: auto;
+    font-size: 16px;
+  }
+
+  #flyerSectionMiddle {
+    p {
+      @include position(absolute, $bottom: 60px, $left: 20px, $right: 20px);
+    }
+    .flyerSectionLabelMiddle {
+      @include position(absolute, $top: 10px, $left: -30px);
+    }
+    .btnflyerSection {
+      @include position(absolute, $bottom: 10px, $left: 0);
+    }
+  }
+}
+
+// 768 sm starts to apply
+// 768 is still sm, max includes 767
+@media only screen and (max-width: 768px) { // bootstrap xs starts
+  nav {
+    li {
+      padding: 10px 6px;
+    }
+  }
+
+  .rightNav {
+    h4 {
+      font-size: 1em;
+      @include position(relative, $right: 5%);
+    }
+  }
+
+  .headingRight {
+    ul {
+      li {
+        margin: 10px;
+        display: inline-block;
+      }
+    }
+  }
+
+  .infoSection {
+    margin-bottom: 20px;
+  }
+
+  .campingSiteEven, .campingSiteOdd {
+    margin-right: 0;
+  }
+
+  .footerMenu {
+    display: none;
+  }
+}
